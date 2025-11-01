@@ -1,0 +1,16 @@
+{
+  "name": "toothbrush",
+  "version": "1.0.0",
+  "description": "Parametric toothbrush designer built with React and Three.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.mjs",
+    "serve": "node server.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {}
+}
