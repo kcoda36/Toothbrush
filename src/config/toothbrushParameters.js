@@ -1,0 +1,35 @@
+export const defaultParameters = {
+  handleLength: 190, // mm
+  handleWidth: 22,
+  handleThickness: 8,
+  indentDepth: 4,
+  indentLength: 24,
+  headLength: 30,
+  headWidth: 14,
+  headThickness: 9,
+  bristleRows: 5,
+  bristleColumns: 12,
+  bristleRadius: 1.2,
+  bristleHeight: 10,
+  bristleTilt: 6,
+  bristleMargin: 2,
+  bristleSpacingFactor: 0.85,
+};
+
+export const parameterRanges = {
+  handleLength: { min: 150, max: 210, step: 1, unit: 'mm' },
+  handleWidth: { min: 15, max: 28, step: 0.5, unit: 'mm' },
+  handleThickness: { min: 6, max: 12, step: 0.2, unit: 'mm' },
+  indentDepth: { min: 0, max: 6, step: 0.1, unit: 'mm' },
+  indentLength: { min: 10, max: 40, step: 0.5, unit: 'mm' },
+  headLength: { min: 24, max: 38, step: 0.5, unit: 'mm' },
+  headWidth: { min: 10, max: 18, step: 0.2, unit: 'mm' },
+  headThickness: { min: 6, max: 12, step: 0.2, unit: 'mm' },
+  bristleRows: { min: 3, max: 8, step: 1, unit: 'rows' },
+  bristleColumns: { min: 6, max: 16, step: 1, unit: 'cols' },
+  bristleRadius: { min: 0.6, max: 2.5, step: 0.1, unit: 'mm' },
+  bristleHeight: { min: 6, max: 14, step: 0.2, unit: 'mm' },
+  bristleTilt: { min: 0, max: 12, step: 0.5, unit: '°' },
+  bristleMargin: { min: 0.5, max: 4, step: 0.1, unit: 'mm' },
+  bristleSpacingFactor: { min: 0.6, max: 1.1, step: 0.01, unit: '' },
+};
