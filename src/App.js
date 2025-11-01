@@ -7,7 +7,6 @@ import { STLExporter } from "https://esm.sh/three-stdlib@2.28.12/exporters/STLEx
 import { Toothbrush } from "./components/Toothbrush.js";
 import { useParams } from "./store.js";
 import { paramMetadata } from "./params.js";
-import "./styles.css";
 
 const h = React.createElement;
 
